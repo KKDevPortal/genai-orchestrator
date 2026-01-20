@@ -1,6 +1,6 @@
 import os
-from dotenv import load_dotenv
-from openai import OpenAI
+from dotenv import load_dotenv  # pyright: ignore[reportMissingImports]
+from openai import OpenAI  # pyright: ignore[reportMissingImports]
 
 load_dotenv()
 
