@@ -7,6 +7,7 @@ pip install fastapi uvicorn openai python-dotenv
 uvicorn app.main:app --reload
 
 ## Where to get the OpenAI (ChatGPT) API Key
+```
 1️⃣ Go to OpenAI dashboard
 
 👉 https://platform.openai.com/
@@ -26,6 +27,7 @@ Give it a name (e.g. genai-orchestrator)
 
 Copy the key immediately
 
+```
 
 
 ## Curl 
