@@ -7,6 +7,9 @@ def handle_question(question: str) -> str:
     else:
         strategy = "detailed"
     
+    print(f"Strategy: {strategy}")
+    print(f"Question: {question}")
+    
     # Task-2
     if strategy == "simple":
         prompt = f"Answer clearly:\n {question}"
